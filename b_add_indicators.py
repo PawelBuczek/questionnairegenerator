@@ -7,7 +7,7 @@ def add_indicators(s: str) -> str:  # rework it to modify the txt file
                              21: f"{ind}u:", 22: f"{ind}v:", 23: f"{ind}w:", 24: f"{ind}x:", 25: f"{ind}y:",
                              26: f"{ind}z:"}
     for i in range(26):
-        s = s.replace("\nX", f"\n{indicator_letter_dict.get(i+1)} ", 1)
+        s = s.replace("\nX", f"\n{indicator_letter_dict.get(i+1)}", 1)
 
     return s
 

@@ -20,7 +20,7 @@ def generate_questionnaire(date_iso_format: str):
 
     num_days = calendar.monthrange(date.year, date.month)[1]
     for i in range(num_days):
-        s += "X  "  # this will be replaced by correct indicator after running b_add_indicators
+        s += "X   "  # this will be replaced by correct indicator after running b_add_indicators
         s += f"{i+1}-{numeral_pol.get(i+1)} "
         s += f"{months_pol_gen.get(date.month)} "
         s += f"({weekdays_pol.get(calendar.weekday(date.year, date.month, i+1))})\n"
