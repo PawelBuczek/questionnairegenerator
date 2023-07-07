@@ -9,6 +9,8 @@ import pytest
 def test_indicators_are_correctly_added():
     pass  # delete this line after you've written this test
 
+    
+
     # purpose of this test is to check `add_indicators` method from file `b_add_indicators` (will require import).
     # for this we don't really need to care about any text file.
     # that's because this method takes in string and returns string.
