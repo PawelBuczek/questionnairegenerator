@@ -7,3 +7,6 @@ Works on windows os. In order to use it:
 2. Go to `questionnaire.txt` file and remove lines that you don't like
 3. Run `b_add_indicators.py` file *(it will add Discord indicators that will make it easier to vote for a given option in questionnaire)*
 4. Copy entire content of `questionnaire.txt` file and paste it into any Discord chat that you want.
+
+Video instruction:
+https://youtu.be/rclad3Oql2Y
