@@ -7,7 +7,8 @@ import pytest
 
 
 def test_indicators_are_correctly_added():
-    pass  # delete this line
+    pass  # delete this line after you've written this test
+
     # purpose of this test is to check `add_indicators` method from file `b_add_indicators` (will require import).
     # for this we don't really need to care about any text file.
     # that's because this method takes in string and returns string.
@@ -17,7 +18,8 @@ def test_indicators_are_correctly_added():
 
 
 def test_questionnaire_is_generated_for_Jul2023():
-    pass  # delete this line
+    pass  # delete this line after you've written this test
+
     # this test can be for any month, Jul2023 is just an example. (Yes, checking one random month should should is sufficient for our needs.)
     # first of all - try to run method `generate_questionnaire` from file `a_generate_questionnaire` with correct text for given month passed (will require import).
     # then run this test and check manually if it works. Was file `questionnaire.txt` populated?
@@ -29,7 +31,8 @@ def test_questionnaire_is_generated_for_Jul2023():
 
 
 def test_questionnaire_generation_and_indicators_adding_work_together():
-    pass  # delete this line
+    pass  # delete this line after you've written this test
+
     # final test. Some would say this is not needed since we already checked pretty much everything, but for learning purposes let's roll with it.
     # Here we need to first run `generate_questionnaire` from file `a_generate_questionnaire` with correct text passed as a parameter.
     # then we need to modify `questionnaire.txt` file, for example by removing lines 10 through 20.
