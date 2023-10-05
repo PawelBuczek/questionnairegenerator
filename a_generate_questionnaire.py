@@ -11,7 +11,7 @@ def generate_questionnaire(date_iso_format: str):
 
     numeral_pol = {1: "szy", 2: "gi", 3: "ci", 4: "ty", 5: "ty", 6: "ty", 7: "my", 8: "my", 9: "ty", 10: "ty", 11: "ty",
                    12: "ty", 13: "ty", 14: "ty", 15: "ty", 16: "ty", 17: "ty", 18: "ty", 19: "ty", 20: "ty", 21: "szy",
-                   22: "gi", 23: "ci", 24: "ty", 25: "ty", 26: "ty", 27: "ty", 28: "my", 29: "ty", 30: "ty", 31: "szy"}
+                   22: "gi", 23: "ci", 24: "ty", 25: "ty", 26: "ty", 27: "my", 28: "my", 29: "ty", 30: "ty", 31: "szy"}
 
     weekdays_pol = {0: "poniedziałek", 1: "wtorek", 2: "środa",
                     3: "czwartek", 4: "piątek", 5: "sobota", 6: "niedziela"}
@@ -29,4 +29,4 @@ def generate_questionnaire(date_iso_format: str):
         f.write(s[:-1])
 
 if __name__ == '__main__':
-    generate_questionnaire("2023-08-01")
+    generate_questionnaire("2023-10-01")
